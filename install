@@ -21,8 +21,8 @@ sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua EvEoE.lua
 sudo chmod +x EvEoE
-sudo chmod +x ./Run
-./Run
+sudo chmod +x ./run
+./run
 }
 if [ "$1" = "install" ]; then
 install
@@ -34,6 +34,6 @@ fi
 sudo chmod +x tg
 lua EvEoE.lua
 sudo chmod +x EvEoE
-sudo chmod +x ./Run
-./Run
+sudo chmod +x ./run
+./run
 fi
